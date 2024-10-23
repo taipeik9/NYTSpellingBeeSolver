@@ -1,3 +1,6 @@
+# This script is not used in the application, its simply there to convert the
+# txt dictionary file into the "letter contain lists" which are used in the application
+
 import os
 import json
 
