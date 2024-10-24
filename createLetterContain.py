@@ -54,7 +54,7 @@ def clean_data(data: list) -> set:
     pattern = re.compile(r"^[a-z]+$")
     data = [word for word in data if pattern.match(word)]
 
-    data = [word for word in data if len(word) <= 7]
+    data = [word for word in data if len(word) >= 4 and len(word) <= 7]
 
     return set(data)
 
